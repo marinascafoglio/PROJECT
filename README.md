@@ -1,2 +1,2 @@
 # PROJECT
- DevCamp project
+ DevCamp project. Marina Scafoglio
