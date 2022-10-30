@@ -1,0 +1,103 @@
+/* common styles */
+.navigation-wrapper{
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* left column styles */
+.navigation-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .left-column > .banner-image img{
+    width: 150px;
+    height: 100%;
+}
+
+/* center column styles */
+.navigation-wrapper > .center-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: 360px;
+}
+.navigation-wrapper > .center-column > .explore-wrapper > .explore{
+    color: #ead675;
+    padding-left: 13px; 
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-wrapper > .nav-link {
+    width: 100%;
+    text-align: center;
+}
+.links-wrapper > .nav-link a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+}
+.links-wrapper > .spark-wrapper{
+    width: 100%;
+    text-align: end;
+    padding-left: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.links-wrapper > .spark-wrapper >.nav-link a{
+    color: #cbcbcb;
+    text-decoration: none;
+}
+.links-wrapper > .spark-wrapper > .icon{
+    font-size: 0.7em;
+    color: #cbcbcb;
+    padding-left: 10px;
+}
+
+/* right column styles*/
+.navigation-wrapper > .right-column > .buttom-wrapper{
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+.navigation-wrapper > .right-column > .buttom-wrapper > .create-wrapper{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 10px 15px;
+    background-color: #36383f;
+    border-radius: 3px;
+    justify-content: center;
+}
+.navigation-wrapper > .right-column > .buttom-wrapper > .create-wrapper > .icon{
+    font-size: 1.2em;
+    color: #4bce79;
+    padding-left: 10px;
+}
+.navigation-wrapper > .right-column > .buttom-wrapper > .search-wrapper{
+    padding: 10px 15px;
+}
+.navigation-wrapper > .right-column > .buttom-wrapper > .search-wrapper > .icon{
+    font-size: 1.7em;
+    color: #cbcbcb;
+}
+.navigation-wrapper > .right-column > .buttom-wrapper > .buttom{
+    height: 30px;
+    padding: 10px 15px;
+    background-color: #36383f;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

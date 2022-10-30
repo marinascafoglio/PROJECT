@@ -1,0 +1,89 @@
+/* header section styles */
+.header-content-wrapper{
+    padding-top: 35px;
+    padding-left: 35px;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-gap: 60px;
+}
+/* header left content */
+.header-content-wrapper > .left-content-wrapper > .text-content-wrapper > .text-top h2{
+    font-size: 2rem;
+    font-weight: 200;
+    color: white;
+}
+.header-content-wrapper > .left-content-wrapper > .text-content-wrapper > .text-bottom h2{
+    font-size: 1.7em;
+    font-weight: 300;
+    color: #cbcbcb;
+    line-height: 140%;
+}
+.header-content-wrapper > .left-content-wrapper > .buttom-content-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.header-content-wrapper > .left-content-wrapper > .buttom-content-wrapper > .btn-left{
+    width: 200px;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #4bce79;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.header-content-wrapper > .left-content-wrapper > .buttom-content-wrapper > .btn-right{
+    width: 150px;
+    padding: 15px 10px;
+    border-radius: 3px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+}
+/* header right content */
+.header-content-wrapper > .right-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+.header-content-wrapper > .right-content-wrapper > .text-wrapper{
+    display: flex;
+}
+.header-content-wrapper > .right-content-wrapper > .text-wrapper > .text{
+    color: white;
+}
+#text-blue{
+    color: #54cef7;
+}
+.header-content-wrapper > .right-content-wrapper > .image img{
+    width: 500px;
+    height: 100%;
+}
+/* banner styles */
+.banner-content-wrapper{
+    height: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+    justify-content: space-between;
+}
+.banner-content-wrapper > .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color:  #36383f;
+    border: 0.5px solid #cbcbcb;
+}
+.banner-content-wrapper > .content > .txt-thin{
+    font-size: 1.1em;
+    color: white;
+}
+.banner-content-wrapper > .content > .txt-bold{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: white;
+}
